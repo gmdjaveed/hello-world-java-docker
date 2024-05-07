@@ -11,3 +11,21 @@ git push -u origin main
 git remote add origin https://github.com/gmdjaveed/hello-world-java-docker.git
 git branch -M main
 git push -u origin main
+
+
+# Adding to Docker hub as image:
+#Ex:
+#docker tag local-image:tagname new-repo:tagname
+#docker push new-repo:tagname
+
+#Pre-requisite:
+$ docker login
+
+# VERIFY: if you really need to create the repository manually before push or will it create automatically as in my case I created manually from my docker hub account before pushing!
+
+Actual: (Generated from hub.docker.com +modified)
+-- Build the image
+$ docker build -t gmdjaveed/jg-hello-world-java-docker .
+
+-- Push the image
+$ docker push -a gmdjaveed/jg-hello-world-java-docker
