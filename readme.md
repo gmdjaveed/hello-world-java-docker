@@ -12,7 +12,7 @@ Also demonstrate passing of environment variables!
 
 ## Git Hub Repo (Application):
 ``` 
-git clone https://hub.docker.com/repositories/gmdjaveed 
+git clone https://github.com/gmdjaveed/hello-world-java-docker.git
 ```
 
 ## Docker Hub Repo (Docker Image of the Application):
