@@ -29,3 +29,10 @@ $ docker build -t gmdjaveed/jg-hello-world-java-docker .
 
 -- Push the image
 $ docker push -a gmdjaveed/jg-hello-world-java-docker
+
+-- Additional updates history commands:
+  676  docker rmi gmdjaveed/jg-hello-world-java-docker
+  677  docker build -t gmdjaveed/jg-hello-world-java-docker:1.0 .
+  678  docker build -t gmdjaveed/jg-hello-world-java-docker:1.0 .
+  679  docker images
+  680  docker run -t -p 8080:8080 gmdjaveed/jg-hello-world-java-docker:1.0
