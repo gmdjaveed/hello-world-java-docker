@@ -65,7 +65,13 @@ http://localhost:8080/hello
      docker run -ti -e APP_NAME=MAGIC -p:8080:8080 gmdjaveed/jg-hello-world-java-docker   
 
  - (d) Test the Application:
-   http://localhost:8080/hello
+     -- "hello" -> world
+     http://localhost:8080
+     
+     (OR)
+     
+     -- "hello" -> HELLO world (APP_NAME + " world")
+     http://localhost:8080/hello
    
  - (e) Sample Application output from the browser:  
     {
