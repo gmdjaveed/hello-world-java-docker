@@ -15,7 +15,7 @@
     <artifactId>hello-world-java-docker</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>HelloWorldDocker</name>
-    <description>Demonstrate how to deploy java app on Docker and Openshift</description>
+    <description>Demonstrate how to deploy java app on Docker</description>
 
     <properties>
         <java.version>11</java.version>

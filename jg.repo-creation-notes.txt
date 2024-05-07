@@ -23,7 +23,6 @@ $ docker login
 
 # VERIFY: if you really need to create the repository manually before push or will it create automatically as in my case I created manually from my docker hub account before pushing!
 
-Actual: (Generated from hub.docker.com +modified)
 -- Build the image
 $ docker build -t gmdjaveed/jg-hello-world-java-docker .
 
